@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/comment_dialog"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:paddingRight="6dip"
+    android:paddingLeft="6dip">
+    
+   	<TextView
+	    android:id="@+id/user"
+    
+    	android:text="Usuario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        
+        android:layout_gravity="left|center_vertical"
+        android:layout_alignParentLeft="true"
+        
+        android:layout_marginBottom="4dip"
+        
+                
+        android:maxLines="1"
+        android:textColor="#FFFFFFFF"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:singleLine="true"
+        android:ellipsize="marquee"/>
+
+    <TextView  
+        android:id="@+id/date"
+    	android:text="Fecha"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+
+        android:layout_toRightOf="@id/user"
+        android:layout_alignParentRight="true"
+        android:gravity="right|center_vertical"
+        
+        android:paddingRight="4dip"
+        android:layout_marginTop="4dip"
+                
+        android:textColor="#FFFFFFFF"
+        android:textStyle="bold"
+        android:textSize="13sp"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:ellipsize="marquee"/>
+        
+	<WebView
+       	android:id="@+id/message"
+
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		
+        android:layout_below="@id/user"
+ 		android:gravity="left|center_vertical"/>
+        
+</RelativeLayout>

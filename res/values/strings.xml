@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">CINeol</string>
+    <string name="leafsoft_web_link">http://www.leafsoft.es</string>
+    <string name="cineol_web_link">http://www.cineol.net</string>
+    <string name="androidicons_web_link">http://www.androidicons.com</string>
+    
+    
+    <string name="search_label">Buscar</string>
+    <string name="search_hint">Buscar fichas...</string>
+    
+    <!-- String Credits -->
+	<string name="credits">Créditos</string>
+	<string name="developed_by">Desarrollado por:</string>
+	<string name="main_icon_designed_by">Icono principal diseñado por:</string>
+	<string name="banner_designed_by">Banner promocional diseñado por:</string>
+	<string name="thanks_to">Agradecimientos especiales para:</string>
+	<string name="copyright_line_1">CINeol 1.1 &#169; 2010 por Leafsoft, S.L.</string>
+	<string name="copyright_line_2">CINeol y Leafsoft son marcas registradas</string>
+	<string name="copyright_line_3">Todos los derechos reservados</string>	
+</resources>

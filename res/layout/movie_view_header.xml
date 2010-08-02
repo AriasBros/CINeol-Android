@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<es.leafsoft.cineol.MovieHeaderView
+	xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/header"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:padding="8dip"
+    android:background="@drawable/android:title_bar_tall">
+    
+    <ImageView
+        android:id="@+id/poster_thumb_view"
+        
+        android:layout_width="70dip"
+        android:layout_height="105dip"
+        
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="false"
+        
+    	android:layout_marginTop="2dip"
+        android:layout_marginRight="8dip"
+
+        android:cropToPadding="false"
+        android:src="@drawable/poster"/>
+    
+   	<TextView
+	    android:id="@+id/title"
+    
+    	android:text="Titulo"
+    	android:layout_toRightOf="@id/poster_thumb_view"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        
+        android:layout_gravity="left|center_vertical"
+        
+        android:layout_marginBottom="4dip"
+                
+        android:maxLines="1"
+        android:textColor="#FF3E7CBD"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:singleLine="true"
+        android:ellipsize="marquee"
+        
+        android:shadowRadius="1"
+    	android:shadowColor="#FFFFFFFF"
+    	android:shadowDx="0"
+    	android:shadowDy="1"/>
+        
+	<RatingBar 
+	  	android:id="@+id/rating"
+	    style="?android:attr/ratingBarStyleSmall"
+	    
+	    android:layout_marginBottom="4dip"
+	    
+	    android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_toRightOf="@id/poster_thumb_view"
+		android:layout_below="@id/title"
+		
+	    android:numStars="5"
+	    android:layout_gravity="left|center_vertical"/>
+    	
+    <TextView  
+        android:id="@+id/genre"
+    	android:text="Genero"
+
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" 
+
+        android:layout_toRightOf="@id/poster_thumb_view"
+        android:layout_below="@id/rating"
+        android:layout_alignParentRight="false"
+        android:gravity="left|center_vertical"
+        
+        android:layout_marginBottom="4dip"
+                
+        android:textColor="#FF888888"
+        android:textStyle="bold"
+        android:textSize="12sp"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:ellipsize="marquee"
+        
+        android:shadowRadius="1"
+    	android:shadowColor="#FFFFFFFF"
+    	android:shadowDx="0"
+    	android:shadowDy="1"/>
+        
+    <TextView  
+        android:id="@+id/votes"
+    	android:text="(9.99 - 25 votos)"
+
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" 
+
+        android:layout_toRightOf="@id/rating"
+       	android:layout_above="@id/genre"
+        android:layout_alignParentRight="false"
+        
+        android:layout_marginBottom="3dip"
+        android:layout_marginLeft="8dip"
+                
+        android:textColor="#FF888888"
+        android:textStyle="bold"
+        android:textSize="12sp"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:ellipsize="marquee"
+        
+        android:shadowRadius="1"
+    	android:shadowColor="#FFFFFFFF"
+    	android:shadowDx="0"
+    	android:shadowDy="1"/>
+        
+	<TextView
+       	android:id="@+id/duration"
+    	android:text="Duracion"
+
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		
+        android:layout_toRightOf="@id/poster_thumb_view"
+        android:layout_below="@id/genre"
+ 		android:gravity="left|center_vertical"
+ 		
+        android:layout_marginBottom="4dip"
+ 		
+		android:maxLines="1"
+		android:textColor="#FF888888"
+		android:textStyle="bold"
+		android:textSize="12sp"
+		
+		android:shadowRadius="1"
+    	android:shadowColor="#FFFFFFFF"
+    	android:shadowDx="0"
+    	android:shadowDy="1"/>
+        
+	<TextView
+       	android:id="@+id/premier"
+    	android:text="Estreno"
+
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		
+        android:layout_toRightOf="@id/poster_thumb_view"
+        android:layout_below="@id/duration"
+ 		android:gravity="left|center_vertical"
+ 		
+		android:maxLines="1"
+		android:textColor="#FF888888"
+		android:textStyle="bold"
+		android:textSize="12sp"
+		
+		android:shadowRadius="1"
+    	android:shadowColor="#FFFFFFFF"
+    	android:shadowDx="0"
+    	android:shadowDy="1"/>
+</es.leafsoft.cineol.MovieHeaderView>

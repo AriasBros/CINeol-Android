@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+
+<item android:id="@+id/web" android:icon="@drawable/menu_icon_browser" android:title="Ver noticia en la web"></item>
+<item android:id="@+id/mail" android:icon="@android:drawable/ic_menu_send" android:title="Compartir noticia"></item>
+
+
+
+
+</menu>

@@ -1,0 +1,18 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" lang="es" />
+	<title>TEST</title>
+	<base href="http://www.cineol.net/" />
+    <link href="http://www.cineol.net/css/2columnas.css" rel="stylesheet" type="text/css"/>
+	<link href="http://www.leafsoft.es/test.css" rel="stylesheet" type="text/css"/>
+</head>
+
+
+<body>
+<div id="contenido-noticia" class="bloque-texto">
+
+%@
+
+</div>
+</body>
+</html>

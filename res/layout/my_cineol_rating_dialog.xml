@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"  
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:padding="6dip">
+
+	<RatingBar 
+	  	android:id="@+id/star_rating"
+	    android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:stepSize="0.5"
+	    android:numStars="5"
+	    android:layout_gravity="center"/>
+
+	<TextView  
+	    android:id="@+id/number_rating"  
+	    android:layout_width="fill_parent"  
+	    android:layout_height="wrap_content"  
+	    android:paddingTop="2dip"  
+	    android:textSize="13sp"
+	    android:textColor="#FFFFFFFF"
+	    android:textStyle="normal" 
+	    android:layout_gravity="center" 
+	    android:gravity="center"/>
+</LinearLayout>  

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/movie_row"
+    android:padding="8dip"
+    android:background="@drawable/row_view_colors">
+    
+    <RatingBar 
+	  	android:id="@+id/rating"
+	    style="?android:attr/ratingBarStyleSmall"
+	    
+	    android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_alignParentRight="true"
+		
+	    android:numStars="5"
+	    android:layout_gravity="right|center_vertical"
+	    android:layout_marginTop="7dip"
+	    
+	    android:layout_alignWithParentIfMissing="true"/>
+   
+   	<TextView
+	    android:id="@+id/title"
+    
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="6dip"
+        android:paddingBottom="3dip"
+        
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_toLeftOf="@id/rating"
+        
+        android:layout_gravity="left|center_vertical"
+        
+        android:maxLines="1"
+        android:textColor="#FF3E7CBD"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:singleLine="true"
+        android:ellipsize="marquee"
+         
+        android:layout_alignWithParentIfMissing="true"/>
+    
+    <ImageView
+        android:id="@+id/poster"
+        
+	    android:layout_width="70dip"
+		android:layout_height="105dip"
+        
+        android:layout_alignParentTop="false"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="8dip"
+        android:cropToPadding="false"
+        android:layout_below="@id/title"
+        
+        android:layout_alignWithParentIfMissing="true"/>
+
+    <TextView  
+        android:id="@+id/genre"
+
+        android:layout_width="175dip"
+        android:layout_height="wrap_content" 
+
+        
+        android:layout_toRightOf="@id/poster"
+        android:layout_below="@id/title"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="false"
+        android:gravity="left|center_vertical"
+                
+        android:textColor="#FF888888"
+        android:textStyle="bold"
+        android:textSize="12sp"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:ellipsize="marquee"
+        
+        android:layout_alignWithParentIfMissing="true"/>
+        
+	<TextView
+       	android:id="@+id/duration"
+
+		android:layout_width="45dip"
+		android:layout_height="wrap_content"
+		
+		android:layout_toRightOf="@id/genre"
+		android:layout_below="@id/title"
+		android:layout_alignParentRight="true"
+ 		android:gravity="right|center_vertical"
+ 		
+		android:maxLines="1"
+		android:textColor="#FF888888"
+		android:textStyle="bold"
+		android:textSize="12sp"
+		android:layout_alignWithParentIfMissing="true"/>
+        
+	<TextView
+		android:id="@+id/synopsis"
+		
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:paddingTop="6dip"
+		
+		android:layout_toRightOf="@id/poster"
+		android:layout_below="@id/genre"
+		android:layout_alignParentBottom="true"
+		
+		android:minLines="1"
+		android:textColor="#FF888888"
+		android:textStyle="normal"
+		android:textSize="13sp"
+		android:maxLines="5"/>
+</RelativeLayout>

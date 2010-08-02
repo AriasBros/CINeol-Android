@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView  
+    xmlns:android="http://schemas.android.com/apk/res/android"  
+    android:id="@+id/list_header_title"  
+    android:layout_width="fill_parent"  
+    android:layout_height="wrap_content"  
+    android:paddingTop="2dip"  
+    android:paddingBottom="2dip"  
+    android:paddingLeft="5dip"  
+    
+    android:textSize="16sp"
+    android:textStyle="bold"
+    android:textColor="#FF7e7e7e"
+    
+    android:shadowRadius="1"
+    android:shadowColor="#FFFFFFFF"
+    android:shadowDx="0"
+    android:shadowDy="1"
+    
+    android:background="@drawable/gradient_header"/>  

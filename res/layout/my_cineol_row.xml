@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView  
+    xmlns:android="http://schemas.android.com/apk/res/android"  
+    android:id="@+id/MyCINeolRow"  
+    android:layout_width="fill_parent"  
+    android:layout_height="30dip"
+    android:height="30dip"  
+    android:paddingTop="2dip"  
+    android:paddingBottom="2dip"  
+    android:paddingLeft="5dip"  
+    android:textSize="13sp"
+    android:textColor="#FF888888"
+    android:textStyle="bold"
+    android:layout_gravity="left|center_vertical"
+    android:gravity="left|center_vertical"/>  

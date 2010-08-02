@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+<item android:id="@+id/movie" android:title="Ver detalles" android:icon="@drawable/ic_menu_info_details"></item>
+<item android:visible="false" android:icon="@drawable/menu_icon_comments" android:id="@+id/comments" android:title="Ver comentarios"></item><item android:title="Guardar ficha" android:id="@+id/save" android:icon="@android:drawable/ic_menu_add"></item><item android:icon="@android:drawable/ic_menu_delete" android:id="@+id/delete" android:visible="false" android:title="Borrar ficha"></item><item android:id="@+id/web" android:title="Ver ficha en la web" android:icon="@drawable/menu_icon_browser"></item>
+<item android:id="@+id/mail" android:icon="@android:drawable/ic_menu_send" android:title="Compartir ficha"></item>
+
+
+
+
+</menu>

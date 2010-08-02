@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="?android:attr/listPreferredItemHeight"
+    android:padding="6dip"
+    android:background="@drawable/row_view_colors">
+    
+    <ImageView
+        android:id="@+id/thumb"
+        
+        android:layout_width="85dip"
+        android:layout_height="85dip"
+        
+        android:adjustViewBounds="false"
+        
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="false"
+        android:layout_alignParentBottom="false"
+        android:layout_marginRight="8dip"
+        android:src="@drawable/news" 
+        android:layout_centerVertical="true" 
+        android:scaleType="centerCrop"/>
+        
+	<TextView
+	    android:id="@+id/title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="6dip"
+
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="false"
+        
+        android:layout_toRightOf="@id/thumb"
+        android:gravity="left|center_vertical"
+        
+        android:textColor="#FF3E7CBD"
+        android:textStyle="bold"
+        android:textSize="15sp"
+        android:ellipsize="marquee" 
+        android:layout_alignWithParentIfMissing="true"/>
+
+	<TextView
+		android:id="@+id/intro"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:paddingTop="2dip"
+
+		android:layout_toRightOf="@id/thumb"
+		android:layout_below="@+id/title"
+		android:layout_alignParentBottom="true"
+		android:gravity="left|center_vertical"
+		
+		android:minLines="1"
+		android:textColor="#FF888888"
+		android:textStyle="normal"
+		android:textSize="13sp"
+		android:maxLines="3"/>
+</RelativeLayout>
